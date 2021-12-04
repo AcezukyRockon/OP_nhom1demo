@@ -1,7 +1,7 @@
 {
   "name": "OP_nhom1demo",
   "main": "./lib/your-name-word-count",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A hello to rock-on using Your-Name-Word-Count",
   "keywords": [
   ],
