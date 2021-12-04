@@ -1,10 +1,9 @@
 {
   "name": "OP_nhom1demo",
   "main": "./lib/your-name-word-count",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A hello to rock-on using Your-Name-Word-Count",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "your-name-word-count:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
