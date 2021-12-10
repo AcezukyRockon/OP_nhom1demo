@@ -2,7 +2,7 @@
   "name": "OP_nhom1demo",
   "main": "./lib/your-name-word-count",
   "version": "1.1.2",
-  "description": "A hello to rock-on using Your-Name-Word-Count",
+  "description": "A hello to nhom 1 using Your-Name-Word-Count",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "your-name-word-count:toggle"
