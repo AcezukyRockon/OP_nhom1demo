@@ -1,14 +1,15 @@
 {
-  "name": "OP_nhom1demo",
-  "main": "./lib/OP_nhom1demo",
-  "version": "0.2.1",
+  "name": "op-nhom1demo",
+  "main": "./lib/main",
+  "version": "0.0.0",
   "description": "",
   "activationCommands": {
-    "atom-workspace": "OP_nhom1demo:toggle"
+    "atom-workspace": "op-nhom1demo:owo"
   },
-  "repository": "https://github.com/AcezukyRockon/OP_nhom1demo",
+  "repository": "https://github.com/atom/op-nhom1demo",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+  }
 }
