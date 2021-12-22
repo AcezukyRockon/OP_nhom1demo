@@ -3,12 +3,10 @@
   "main": "./lib/OP_nhom1demo",
   "version": "1.1.2",
   "description": "",
-  "keywords": [],
   "activationCommands": {
     "atom-workspace": "OP_nhom1demo:toggle"
   },
   "repository": "https://github.com/AcezukyRockon/OP_nhom1demo",
-  "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
