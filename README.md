@@ -1,5 +1,7 @@
 # op-nhom1demo package
 
+Add apm to your PATH: https://stackoverflow.com/questions/38138900/complete-guide-for-installing-apm-on-windows
+
 How to use "snippet":
 Supported snippets: op-nhom1demo, html_helloworld, cpp_helloworld, Verilog
 1. go to test file
