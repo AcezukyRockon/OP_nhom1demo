@@ -11,7 +11,7 @@ Supported snippets: op-nhom1demo, html_helloworld, cpp_helloworld, Verilog
 
 Edit and run instruction:
 1. It's recommended to uninstall this package first before making any edit.
-2. Clone this repository (git clone https://github.com/AcezukyRockon/op-nhom1demo.git) at C:\Users\<username>\.atom\packages
+2. Clone this repository (git clone https://github.com/AcezukyRockon/op-nhom1demo.git) at `C:\Users\<username>\.atom\packages`
 3. Reload Atom and try to use package: Ctrl+Shift+I to open devtool > on Atom editor, Ctrl+Shift+P > Type and run "Op nhom1demo:Owo" > see "Owo" in the devtool console
 4. Make some edits
 5. Reload Atom by open "Command Palette" (Ctrl+Shift+P) > Window Reload
