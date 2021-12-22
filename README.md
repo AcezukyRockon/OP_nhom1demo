@@ -1,4 +1,12 @@
 # op-nhom1demo package
+
+How to use "snippet":
+Supported snippets: op-nhom1demo, html_helloworld, cpp_helloworld, Verilog
+1. go to test file
+2. type one of following snippet on test file, then select the word
+3. open command palette, search for "Op Nhom1demo: Owo" and run the command
+4. magic appears!
+
 Edit and run instruction:
 1. It's recommended to uninstall this package first before making any edit.
 2. Clone this repository (git clone https://github.com/AcezukyRockon/op-nhom1demo.git) at C:\Users\<username>\.atom\packages
