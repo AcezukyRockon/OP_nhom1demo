@@ -7,7 +7,7 @@ Edit and run instruction:
 5. Reload Atom by open "Command Palette" (Ctrl+Shift+P) > Window Reload
 6. See result
 
-Push to Github, in command line, type following:
+Push to Github, open command line in package's folder, type following:
 1. git fetch
 2. git status
 3. git add .
