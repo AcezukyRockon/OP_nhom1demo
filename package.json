@@ -6,7 +6,7 @@
   "activationCommands": {
     "atom-workspace": "op-nhom1demo:owo"
   },
-  "repository": "https://github.com/atom/op-nhom1demo",
+  "repository": "https://github.com/AcezukyRockon/op-nhom1demo",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
