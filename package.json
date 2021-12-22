@@ -1,7 +1,7 @@
 {
   "name": "OP_nhom1demo",
   "main": "./lib/OP_nhom1demo",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "",
   "activationCommands": {
     "atom-workspace": "OP_nhom1demo:toggle"
