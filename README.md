@@ -35,5 +35,5 @@ Uninstall package:
 - Via apm command: apm uninstall op-nhom1demo
 
 Tags and versions:
-v0.0.2: Add snippet feature by using [atom API to select text and insert text](https://flight-manual.atom.io/hacking-atom/sections/package-modifying-text/)
-v0.0.1: barebone main.js with very simple console log
+- v0.0.2: Add snippet feature by using [atom API to select text and insert text](https://flight-manual.atom.io/hacking-atom/sections/package-modifying-text/)
+- v0.0.1: barebone main.js with very simple console log
