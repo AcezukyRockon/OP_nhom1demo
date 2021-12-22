@@ -1,11 +1,11 @@
 {
   "name": "OP_nhom1demo",
-  "main": "./lib/your-name-word-count",
+  "main": "./lib/OP_nhom1demo",
   "version": "1.1.2",
-  "description": "A hello to rock-on using Your-Name-Word-Count",
+  "description": "",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "your-name-word-count:toggle"
+    "atom-workspace": "OP_nhom1demo:toggle"
   },
   "repository": "https://github.com/AcezukyRockon/OP_nhom1demo",
   "license": "MIT",
