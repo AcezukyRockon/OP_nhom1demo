@@ -1,0 +1,6 @@
+".text.css":
+    'CSS Snippet Test':
+        'prefix': 'css-test'
+        'body': """
+            This is a CSS snippet test!
+        """

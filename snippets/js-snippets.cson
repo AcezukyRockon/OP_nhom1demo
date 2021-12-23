@@ -1,0 +1,6 @@
+".text.js":
+    'JavaScript Snippet Test':
+        'prefix': 'js-test'
+        'body': """
+            This is a JavaScript snippet test!
+        """
