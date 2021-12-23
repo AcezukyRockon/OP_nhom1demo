@@ -1,6 +1,33 @@
-".text.html":
+".source.html":
     'HTML Snippet Test':
         'prefix': 'html-test'
         'body': """
-            This is a HTML snippet test!
+            # This is a HTML snippet test!
         """
+
+    'Dropdown Menu - HTML':
+        'prefix': 'dropdown'
+        'body': """
+            <div class="sidenav">
+              <a href="#text1">Text1</a>
+              <a href="#text2">Text2</a>
+              <a href="#text3">Text3</a>
+              <a href="#text4">Text4</a>
+              <button class="dropdown-btn">Dropdown
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-container">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+              <a href="#contact">Search</a>
+            </div>
+        """
+
+# ".source.css":
+#     'CSS Snippet Test':
+#         'prefix': 'css-test'
+#         'body': """
+#             This is a CSS snippet test!
+#         """
