@@ -1,0 +1,6 @@
+".text.html":
+    'HTML Snippet Test':
+        'prefix': 'html-test'
+        'body': """
+            This is a HTML snippet test!
+        """
