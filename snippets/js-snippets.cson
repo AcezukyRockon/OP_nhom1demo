@@ -1,6 +1,37 @@
-".text.js":
+".source.css":
     'JavaScript Snippet Test':
         'prefix': 'js-test'
         'body': """
             This is a JavaScript snippet test!
         """
+   'useEffectDidMount':
+        "prefix": "usfd",
+        "body": "useEffect(() => {\n$0\n},[])"
+    "useEffectUnMount": 
+        "prefix": "usfu",
+        "body": "useEffect(() => {\n$0 return () => {\n$0\n\t}\n})",
+    "useEffect": 
+        "prefix": "usf",
+        "body": "useEffect(() => {\n$0\n})",
+   "flowClassComponent": 
+        "prefix": "fcc",
+        "body": [
+        "// @flow",
+        "import * as React from 'react';",
+        "type Props = {",
+        "  $0",
+        "};",
+        "type State = {",
+        "  $1",
+        "};",
+        "export class ${2:${TM_FILENAME_BASE}} extends React.Component<Props, State>{",
+        "  render() {",
+        "    return (",
+        "      <div>",
+        "        ",
+        "      </div>",
+        "    );",
+        "  };",
+        "};"
+        ],
+        
