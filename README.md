@@ -2,8 +2,9 @@
 
 Add apm to your PATH: https://stackoverflow.com/questions/38138900/complete-guide-for-installing-apm-on-windows
 
+Supported snippet languages: HTML, CSS, JAVASCRIPT
+
 How to use "snippet":
-Supported snippets: op-nhom1demo, html_helloworld, cpp_helloworld, Verilog
 1. go to test file
 2. type one of following snippet on test file, then select the word
 3. open command palette, search for "Op Nhom1demo: Owo" and run the command
