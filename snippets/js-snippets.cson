@@ -1,4 +1,4 @@
-".source.css":
+".source.js":
     'JavaScript Snippet Test':
         'prefix': 'js-test'
         'body': """
@@ -15,23 +15,23 @@
         "body": "useEffect(() => {\n$0\n})",
    "flowClassComponent": 
         "prefix": "fcc",
-        "body": [
-        "// @flow",
-        "import * as React from 'react';",
-        "type Props = {",
-        "  $0",
-        "};",
-        "type State = {",
-        "  $1",
-        "};",
-        "export class ${2:${TM_FILENAME_BASE}} extends React.Component<Props, State>{",
-        "  render() {",
-        "    return (",
-        "      <div>",
-        "        ",
-        "      </div>",
-        "    );",
-        "  };",
-        "};"
-        ],
+        "body": """
+        // @flow,
+        import * as React from 'react';,
+        type Props = {,
+          $0,
+        };,
+             type State = {,
+          $1,
+        };,
+        export class ${2:${TM_FILENAME_BASE}} extends React.Component<Props, State>{,
+          render() {,
+            return (,
+              <div>,
+                ,
+              </div>,
+            );,
+          };,
+        };
+        """,
         
