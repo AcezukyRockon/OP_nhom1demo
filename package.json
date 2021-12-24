@@ -1,7 +1,7 @@
 {
   "name": "op-nhom1demo",
   "main": "./lib/main",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "activationCommands": {
     "atom-workspace": "op-nhom1demo:owo"
