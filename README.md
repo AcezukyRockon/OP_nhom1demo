@@ -24,6 +24,15 @@ Push to Github, open command line in package's folder, type following:
 4. git commit -m "update something"
 5. git push
 
+Publish your package to atom site:
+1. Make sure you have requirements for publishing a package (package.json and git tag): https://flight-manual.atom.io/hacking-atom/sections/publishing/
+2. Open command line, go to your package folder
+3. You may need to connect with your atom account via apm command
+4. Change git local user (remove --global tag): https://stackoverflow.com/questions/22844806/how-to-change-my-git-username-in-terminal
+5. Type: git tag
+6. Type "apm publish major/minor/patch" (see more at https://flight-manual.atom.io/hacking-atom/sections/publishing/)
+7. Congrats!
+
 Install package:
 - Via website: https://atom.io/packages/op-nhom1demo
 - Via Atom: File > Settings > Install > Search "op-nhom1demo" > Install
