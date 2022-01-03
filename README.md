@@ -7,13 +7,13 @@ Supported snippet languages: HTML, CSS, JAVASCRIPT
 How to use "snippet":
 1. go to test file
 2. type one of following snippet on test file, then select the word
-3. open command palette, search for "Op Nhom1demo: Owo" and run the command
+3. open command palette, search for "Op Nhom1demo: Expand" and run the command
 4. magic appears!
 
 Edit and run instruction:
 1. It's recommended to uninstall this package first before making any edit.
 2. Clone this repository (git clone https://github.com/AcezukyRockon/op-nhom1demo.git) at `C:\Users\<username>\.atom\packages`
-3. Reload Atom and try to use package: Ctrl+Shift+I to open devtool > on Atom editor, Ctrl+Shift+P > Type and run "Op nhom1demo:Owo" > see "Owo" in the devtool console
+3. Reload Atom. Based on file extension, select the keyword (list of words in main.js) and press ctrl+tab. Snippet will appear.
 4. Make some edits
 5. Reload Atom by open "Command Palette" (Ctrl+Shift+P) > Window Reload
 6. See result
@@ -45,6 +45,7 @@ Uninstall package:
 - Via apm command: apm uninstall op-nhom1demo
 
 Tags and versions:
+- v0.0.4: Change command name and add key bind. To run old snippet, select word (list of words in main.js) and press ctrl+alt.
 - v0.0.3: Add HTML, CSS, JS snippet using snippet folder
 - v0.0.2: Add snippet feature by using [atom API to select text and insert text](https://flight-manual.atom.io/hacking-atom/sections/package-modifying-text/)
 - v0.0.1: barebone main.js with very simple console log
