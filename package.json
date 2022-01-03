@@ -4,7 +4,7 @@
   "version": "0.0.3",
   "description": "",
   "activationCommands": {
-    "atom-workspace": "op-nhom1demo:owo"
+    "atom-workspace": "op-nhom1demo:expand"
   },
   "repository": "https://github.com/AcezukyRockon/op-nhom1demo",
   "engines": {
