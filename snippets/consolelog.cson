@@ -1,5 +1,0 @@
-'.source.js':
-  'console.log':
-    'prefix': 'log'
-    'body': 'console.log(${1:"crash"} + ${1:"crash2"});$2'
-    'description': 'log in console'
