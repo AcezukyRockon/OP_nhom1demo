@@ -1,14 +1,20 @@
 {
-  "name": "op-nhom1demo",
-  "main": "./lib/main",
-  "version": "0.0.4",
-  "description": "",
+  "name": "nhom1-atom-snippet",
+  "main": "./lib/nhom1-atom-snippet",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
   "activationCommands": {
-    "atom-workspace": "op-nhom1demo:expand"
+    "atom-workspace": "nhom1-atom-snippet:toggle"
   },
-  "repository": "https://github.com/AcezukyRockon/op-nhom1demo",
+  "repository": "https://github.com/atom/nhom1-atom-snippet",
+  "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "atom-select-list": "^0.7.0",
+    "season": "^6.0.2",
+    "cson": "^7.20.0"
+  }
 }

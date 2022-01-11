@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle nhom1-atom-snippet",
+        "command": "nhom1-atom-snippet:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "nhom1-atom-snippet",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "nhom1-atom-snippet:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
