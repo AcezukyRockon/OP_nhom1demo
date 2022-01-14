@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt": "op-nhom1demo:expand"
+    "ctrl-alt": "op-nhom1demo:expand",
+    "~": "op-nhom1demo:toggle"
   }
 }

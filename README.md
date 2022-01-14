@@ -2,13 +2,14 @@
 
 Add apm to your PATH: https://stackoverflow.com/questions/38138900/complete-guide-for-installing-apm-on-windows
 
-Supported snippet languages: HTML, CSS, JAVASCRIPT
+Supported snippet languages: HTML, CSS, Javascript
 
 How to use "snippet":
-1. go to test file
-2. type one of following snippet on test file, then select the word
-3. open command palette, search for "Op Nhom1demo: Expand" and run the command
-4. magic appears!
+1. Go to test.js file
+2.1 type one of following snippet on test file, then select the word, open command palette, press "Ctrl+Tab"
+2.2 Press "~" to open the modal panel and click to the snippet panel to insert snippet in current cursor position
+2.3 Go to Packages > op-nhom1demo > using the options same as step 2.1 and 2.2
+3. Snippet appears!
 
 Edit and run instruction:
 1. It's recommended to uninstall this package first before making any edit.
@@ -45,7 +46,8 @@ Uninstall package:
 - Via apm command: apm uninstall op-nhom1demo
 
 Tags and versions:
-- v0.0.4: Change command name and add key bind. To run old snippet, select word (list of words in main.js) and press ctrl+alt.
+- v0.1.0: Add "cson" package for reading .cson snippet file, add "atom-select-list package" for modal panel with click to use snippet (type "~" to open the modal panel)
+- v0.0.4: Change command name and add key bind. To run old snippet, select word (list of words in main.js) and press Ctrl+Alt.
 - v0.0.3: Add HTML, CSS, JS snippet using snippet folder
 - v0.0.2: Add snippet feature by using [atom API to select text and insert text](https://flight-manual.atom.io/hacking-atom/sections/package-modifying-text/)
 - v0.0.1: barebone main.js with very simple console log

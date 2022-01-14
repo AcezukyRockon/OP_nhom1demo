@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Expand op-nhom1demo-snippet",
+        "command": "op-nhom1demo:expand"
+      }
+      {
+        "label": "Toggle op-nhom1demo-snippet",
+        "command": "op-nhom1demo:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "op-nhom1demo",
+          "submenu": [
+            {
+              "label": "Expand",
+              "command": "op-nhom1demo:expand"
+            }
+            {
+              "label": "Toggle",
+              "command": "op-nhom1demo:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -4,11 +4,19 @@
   "version": "0.0.4",
   "description": "",
   "activationCommands": {
-    "atom-workspace": "op-nhom1demo:expand"
+    "atom-workspace": "op-nhom1demo:expand",
+    "atom-workspace": "op-nhom1demo:toggle"
   },
   "repository": "https://github.com/AcezukyRockon/op-nhom1demo",
+  "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "atom-select-list": "^0.7.2",
+    "cson": "^7.20.0",
+    "fuzzaldrin": "^2.1.0",
+    "season": "^6.0.2",
+    "underscore-plus": "^1.7.0"
+  }
 }
