@@ -45,6 +45,13 @@ Uninstall package:
 - Via Atom: File > Settings > Packages > Search "op-nhom1demo" > Uninstall
 - Via apm command: apm uninstall op-nhom1demo
 
+List of npm dependencies:
+- atom-select-list: 0.7.2+
+- cson: 7.20.0+
+- fuzzaldrin: 2.1.0+
+- season: 6.0.2+
+- underscore-plus: 1.7.0+
+
 Tags and versions:
 - v0.1.0: Add "cson" package for reading .cson snippet file, add "atom-select-list package" for modal panel with click to use snippet (type "~" to open the modal panel)
 - v0.0.4: Change command name and add key bind. To run old snippet, select word (list of words in main.js) and press Ctrl+Alt.
