@@ -1,10 +1,9 @@
 {
   "name": "op-nhom1demo",
   "main": "./lib/main",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "",
   "activationCommands": {
-    "atom-workspace": "op-nhom1demo:expand",
     "atom-workspace": "op-nhom1demo:toggle"
   },
   "repository": "https://github.com/AcezukyRockon/op-nhom1demo",
