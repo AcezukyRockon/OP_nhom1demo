@@ -8,7 +8,7 @@
 1. Go to `test.js` file
 2. Do one of the following:
 - Type one of the `case` in switch-case trong file `main.js`, select word, open command palette, press `Op Nhom1demo : Expand` to insert snippet
-- Type one of following snippet on test file, then select the word, open command palette, press `Ctrl+Tab`
+- Type one of following `prefix` snippet in `snippet.cson` on test file, then select the word, press `Ctrl+Tab`
 - Press `~` to open the modal panel and click to the snippet panel to insert snippet in current cursor position
 - Go to Packages > op-nhom1demo > using the options same as step 2.1 and 2.2
 3. Snippet appears!
@@ -19,7 +19,6 @@
 3. Reload Atom.
 4. Make some edits
 5. Reload Atom by open "Command Palette" (Ctrl+Shift+P) > Window Reload
-6. See result
 
 **Push to Github**. Open command line in package's folder, type following:
 1. git fetch
@@ -29,12 +28,12 @@
 5. git push
 
 **Publish your package to atom site:**
-1. Make sure you have requirements for publishing a package (package.json and git tag): https://flight-manual.atom.io/hacking-atom/sections/publishing/
+1. [Make sure you have requirements for publishing a package](https://flight-manual.atom.io/hacking-atom/sections/publishing/) (package.json and git tag)
 2. Open command line, go to your package folder
 3. You may need to connect with your atom account via apm command
-4. Change git local user (remove `--global tag`): https://stackoverflow.com/questions/22844806/how-to-change-my-git-username-in-terminal
+4. [Change git local user](https://stackoverflow.com/questions/22844806/how-to-change-my-git-username-in-terminal) (remove `--global tag`)
 5. Type: `git tag`
-6. Type `apm publish major/minor/patch` (see more at https://flight-manual.atom.io/hacking-atom/sections/publishing/)
+6. Type `apm publish major/minor/patch` ([see more](https://flight-manual.atom.io/hacking-atom/sections/publishing/))
 7. Congrats!
 
 **Install package:**
@@ -54,6 +53,7 @@
 - underscore-plus: 1.7.0+
 
 **Tags and versions:**
+- v0.1.1: Make some final edits for README
 - v0.1.0: Add [cson](https://www.npmjs.com/package/cson) package for reading .cson snippet file, add [atom-select-list](https://github.com/atom/atom-select-list) package for modal panel with click to use snippet (type `~` to open the modal panel)
 - v0.0.4: Change command name and add key bind. To run old snippet, select word (list of words in main.js) and press `Ctrl+Alt`.
 - v0.0.3: Add HTML, CSS, JS snippet using snippet folder
