@@ -53,7 +53,7 @@
 - season: 6.0.2+
 - underscore-plus: 1.7.0+
 
-Tags and versions:
+**Tags and versions:**
 - v0.1.0: Add [cson](https://www.npmjs.com/package/cson) package for reading .cson snippet file, add [atom-select-list](https://github.com/atom/atom-select-list) package for modal panel with click to use snippet (type `~` to open the modal panel)
 - v0.0.4: Change command name and add key bind. To run old snippet, select word (list of words in main.js) and press `Ctrl+Alt`.
 - v0.0.3: Add HTML, CSS, JS snippet using snippet folder
