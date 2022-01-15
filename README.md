@@ -7,6 +7,7 @@
 **How to use "snippet":**
 1. Go to `test.js` file
 2. Do one of the following:
+- Type one of the `case` in switch-case trong file `main.js`, select word, open command palette, press `Op Nhom1demo : Expand` to insert snippet
 - Type one of following snippet on test file, then select the word, open command palette, press `Ctrl+Tab`
 - Press `~` to open the modal panel and click to the snippet panel to insert snippet in current cursor position
 - Go to Packages > op-nhom1demo > using the options same as step 2.1 and 2.2
@@ -15,7 +16,7 @@
 **Edit and run instruction:**
 1. It's recommended to uninstall this package first before making any edit.
 2. Clone this repository `git clone https://github.com/AcezukyRockon/op-nhom1demo.git` at `C:\Users\<username>\.atom\packages`
-3. Reload Atom. 
+3. Reload Atom.
 4. Make some edits
 5. Reload Atom by open "Command Palette" (Ctrl+Shift+P) > Window Reload
 6. See result
