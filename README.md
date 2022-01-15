@@ -2,6 +2,8 @@
 
 [Add apm to your PATH](https://stackoverflow.com/questions/38138900/complete-guide-for-installing-apm-on-windows)
 
+![](https://i.imgur.com/iAwquv0.mp4)
+
 **Supported snippet languages:** HTML, CSS, Javascript
 
 **How to use "snippet":**
